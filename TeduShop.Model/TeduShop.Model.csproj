@@ -51,26 +51,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abtract\Audible.cs" />
-    <Compile Include="Abtract\IAuditable.cs" />
-    <Compile Include="Abtract\maxlengthAttribute.cs" />
-    <Compile Include="Models\Footer.cs" />
-    <Compile Include="Models\Menu.cs" />
-    <Compile Include="Models\MenuGroup.cs" />
-    <Compile Include="Models\OdersDetail.cs" />
-    <Compile Include="Models\Order.cs" />
-    <Compile Include="Models\Page.cs" />
-    <Compile Include="Models\Post.cs" />
-    <Compile Include="Models\PostCategorie.cs" />
-    <Compile Include="Models\PostTag.cs" />
-    <Compile Include="Models\Product.cs" />
-    <Compile Include="Models\ProductCategorie.cs" />
-    <Compile Include="Models\ProductTag.cs" />
-    <Compile Include="Models\Slide.cs" />
-    <Compile Include="Models\SupportOnline.cs" />
-    <Compile Include="Models\SystemConfig.cs" />
-    <Compile Include="Models\Tag.cs" />
-    <Compile Include="Models\VisitorStatistic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -83,7 +63,6 @@
       <Name>TeduShop.Commond</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
